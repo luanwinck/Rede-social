@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.content--post {
+    width: 400px;
+    height: 420px;
+    padding: 10px;
+    margin-top: 20px;
+    margin: auto;
+    color: white;
+    background: rgba(0, 0, 0, .6);
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content--description {
+    width: 100%;
+}
+
+.content--post img {
+    width: 100%;
+    max-height: 150px;
+}
+
+.content--post img:hover {
+    filter: grayscale(50%);
+    cursor:pointer;
+}
+
+.post--title:hover {
+    color: #9dceaf;
+    cursor:pointer;
+}
+
+.buttonAppears {
+    display: inline-block;
+}
+
+.buttonHidden {
+    display: none;
+}
+
+.icon{
+    width: 30%;
+    height: 65px;
+    background-color: black;
+    display: flex;
+}
+.icon img{
+    width: 60px;
+    filter: grayscale(100%);
+    margin: auto;
+}
+
+.check-group {
+    border-bottom: 1px dashed gray;
+    padding: 5px 0;
+    display: flex;
+}
+
+.Comentario{
+    width: 70%;
+    text-align: center;
+}
+
+.check-group input{
+    display: none;
+}
+
+
+.check-group input[type="checkbox"]:checked + label > img{
+    filter: grayscale(0%);
+}
+
+.check-group input[type="checkbox"]:checked + label{
+    border-bottom: 4px solid green;
+}
+

@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+.LoginForm--global {
+    background-image: url('https://i.pinimg.com/originals/4e/21/73/.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 80px;
+}
+
+.LoginForm--content {
+    max-width: 450px;
+    margin: auto;
+    margin-top: 100px;
+    background: rgba(0, 0, 0, .6);
+    color: white;
+    padding: 55px;
+    border-radius: 6px;
+    box-shadow: 5px 5px 10px black;
+    
+}
+
+.form-group {
+    margin-bottom: -1rem;
+}

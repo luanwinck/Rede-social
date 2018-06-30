@@ -1,0 +1,25 @@
+.conteinerPerfilHome{
+    width: 800px;
+    margin: auto;
+    background: black;
+    display: flex;
+    color: #aaa9a9;
+}
+
+.imagemPerfilHome {
+    width: 100px;
+    height: 100px;
+    background: black;
+    overflow: hidden;
+    margin-left: 50px;
+    border-radius: 50%;
+    border: 3px solid green;
+    margin-right: 20px;
+}
+
+.imagemPerfilHome img{
+    display: block;
+    height: 120%;
+    position: relative;
+    left: 0%;
+}

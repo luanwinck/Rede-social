@@ -1,0 +1,26 @@
+.navBarHome{
+    width: 100%;
+    height: 45px;
+    margin-bottom: 10px;
+    background-color: #7cac03;
+    display: flex;
+    padding: 2px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inputBuscar{
+    width: 600px;
+}
+
+.imgPesquisa{
+    width: 15px;
+}
+
+.FooterHome{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 30px auto 30px;
+}

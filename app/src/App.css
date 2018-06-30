@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  height: 100%;
+  background-image: url('https://img.elo7.com.br/product/original/1BC5655/painel-festa-1-50x1m-estadio-futebol-estadio-de-futebol.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.App--content{
+  width: 100%;
+  
+
+
+}
+
+
+

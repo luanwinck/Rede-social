@@ -1,0 +1,11 @@
+.input {
+    background-color: #1d1d1d;
+}
+
+.label {
+    color: white;
+}
+
+.input:focus {
+    background-color: #1d1d1d;
+}
